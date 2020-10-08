@@ -17,7 +17,7 @@ Linux & MacOS : /etc/gpa/id.txt
 
 ## 加入我们
 
-欢迎加官方群交流，QQ群：`189618940` [电报群](https://t.me/snail007_goproxy)
+欢迎加官方群交流，QQ群：`42805407` [电报群](https://t.me/snail007_goproxy)
 
 ## 预览
 
