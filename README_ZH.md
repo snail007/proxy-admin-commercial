@@ -1,7 +1,7 @@
 # 关于 ProxyAdmin
 ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/snail007/goproxy) 的控制面板，运行了它，一秒让你的服务器变为强大的代理服务器，友好的交互界面，小白也能轻松上手，让你用起来得心应手，心情舒畅。
 
-首次使用，会在下面的目录生成id.txt文件，把里面的内容绑定到授权平台即可。  
+首次使用，直接在命令行执行proxy-admin，等待程序自己退出，会在下面的目录生成id.txt文件，把里面的内容绑定到授权平台即可。   
 Windows：C:\gpa\id.txt  
 Linux & MacOS : /etc/gpa/id.txt  
 
