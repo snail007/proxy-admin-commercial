@@ -5,9 +5,11 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 Windows：C:\gpa\id.txt  
 Linux & MacOS : /etc/gpa/id.txt  
 
-购买联系：  
+购买方式：
+  
+1. 授权平台可以在线自助购买，点击进入[授权平台](https://gpm.host900.com/)。
 
-官方QQ售前群：624502196    
+2. 特殊需求请发送邮件到：`arraykeys@gmail.com`  
 
 <hr>
 
