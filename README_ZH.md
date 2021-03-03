@@ -13,9 +13,24 @@ Linux & MacOS : /etc/gpa/id.txt
 
 <hr>
 
-[English](/README_ZH.md)
+[Manual](https://snail.gitee.io/proxy/manual/) ｜ [参考手册](https://snail.gitee.io/proxy/manual/zh/)
 
-[snail007/goproxy 手册](https://snail007.github.io/goproxy/manual/zh)
+手册同时适用于命令行goproxy和proxyadmin面板，控制面板只是命令行goproxy的界面化，使用参数完全一样。
+
+## 国内下载
+
+请在github的下载链接前面加上: `https://mirrors.host900.com/` 。
+
+比如`v2.0`的github下载链接是：
+
+`https://github.com/snail007/proxy-admin-commercial/releases/download/v2.0/proxy-admin_linux-amd64.tar.gz`
+
+那么国内下载地址就是：
+
+`https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/releases/download/v2.0/proxy-admin_linux-amd64.tar.gz`
+
+此地址也适用于wget，curl直接命令行下载。
+
 
 ## 加入我们
 
@@ -24,31 +39,31 @@ Linux & MacOS : /etc/gpa/id.txt
 ## 预览
 
 ### HTTP(S)代理
-![](/res/images/http_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/http_cn.gif)
 
 ### Socks5代理
-![](/res/images/socks5_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/socks5_cn.gif)
 
 ### 内网穿透
-![](/res/images/nat_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/nat_cn.gif)
 
 ### 远程桌面-VNC & Web-SSH
-![](/res/images/rdp.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/rdp.gif)
 
 ### 自定义服务
-![](/res/images/diy_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/diy_cn.gif)
 
 ### 客户端连接参数
-![](/res/images/client_args.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/client_args.gif)
 
 ### 实时日志
-![](/res/images/logging.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/logging.gif)
 
 ### 调试模式
-![](/res/images/debugging.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/debugging.gif)
 
 ### 全功能演示
-![](/res/images/demo_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/demo_cn.gif)
 
 ## 开始使用
 
@@ -63,7 +78,7 @@ Linux & MacOS : /etc/gpa/id.txt
 提示:所有操作需要root权限。 
 
 ```shell  
-curl -L https://mirrors.host900.com/snail007/proxy-admin-commercial/install_auto.sh | bash  
+curl -L https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/install_auto.sh | bash  
 ```  
 
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
@@ -74,7 +89,7 @@ curl -L https://mirrors.host900.com/snail007/proxy-admin-commercial/install_auto
 
 选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy-admin-commercial/releases)
 
-如果上面不能正常下载，点击这里[镜像下载](https://mirrors.host900.com/snail007/proxy-admin-commercial/)
+国内请参考上面的国内下载。
 
 ### Linux && MacOS
 
@@ -91,7 +106,7 @@ root账号执行：
 
 管理员打开 goproxy_helper.exe，可以一键安装/卸载/重启服务。
 
-![](/res/images/gh.png)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/res/images/gh.png)
 
 2. 命令行安装
 
