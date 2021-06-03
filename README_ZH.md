@@ -1,7 +1,7 @@
 # 关于 ProxyAdmin
 ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/snail007/goproxy) 的控制面板，运行了它，一秒让你的服务器变为强大的代理服务器，友好的交互界面，小白也能轻松上手，让你用起来得心应手，心情舒畅。
 
-首次使用，直接在命令行执行proxy-admin，等待程序自己退出，会在下面的目录生成id.txt文件，把里面的内容绑定到授权平台即可。   
+首次使用，会在下面的目录生成id.txt文件，把里面的内容绑定到授权平台即可。  
 Windows：C:\gpa\id.txt  
 Linux & MacOS : /etc/gpa/id.txt  
 
@@ -193,9 +193,40 @@ token="xxx"
 
 3.要操面板的某个功能的数据，请自行使用Chrome浏览器开启开发者工具，观察面板操作的对应接口，请求表单数据字段情况。
 
+## 升级更新
+
+### Linux
+用`root`打开一个终端。
+
+```shell
+proxy-admin update
+```
+
+已经安装了最新的版本，默认不会更新，如果想强制更新加上 -f 参数即可。
+
+```shell
+proxy-admin update -f
+```
+
+### Windows
+用`管理员`权限打开命令提示符窗口。
+
+```bat
+c:\
+cd gpa
+proxy-admin update
+```
+
+已经安装了最新的版本，默认不会更新，如果想强制更新加上 -f 参数即可。
+
+```shell
+c:\
+cd gpa
+proxy-admin update -f
+```
 
 ## 鸣谢
 
 [笔下光年](https://gitee.com/yinqi) 提供的后台模板给我们带来舒畅的交互体验.
 
-[GoFrame](https://github.com/gogf/gf) 提供的方便强大的框架让控制面板开发起来更加流畅自如。
+[GoFrame](https://github.com/snail007/gf) 提供的方便强大的框架让控制面板开发起来更加流畅自如。
