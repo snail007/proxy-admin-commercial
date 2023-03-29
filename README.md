@@ -142,6 +142,36 @@ MacOS can be managed by commands below.
 
 Windows can be managed using the system's Service Manager.
 
+## HTTP API
+
+The control panel defaults to the verification code login mode for the login.
+You can also enable the token mode in the configuration file, so that the login can
+support verification code and token mode at the same time. Using the token mode,
+you can easily simulate the login panel, and then your program can be accessed through http.
+It can operate data like on the panel, and can also realize functions that are not
+available in the background, such as batch import, start, stop and other operations.
+
+Steps to enable token mode
+
+1.Modify the control panel configuration file app.toml, under [login]
+
+```ini
+enable_token=true
+token="xxx"
+```  
+
+Tips: `xxx` is a specific token, it should be set as a private string of English numbers,
+the length is not limited, about 32 are recommended.
+
+2.When requesting the login interface
+
+1. You need to set an HTTP header: `X-Requested-With: XMLHttpRequest`, so that you can log in normally.
+2. In addition to the username and password, the login form data also needs a `token` field, and the value is the token
+   set in [login] in the configuration file.
+
+3.To operate the data of a certain function of the panel, please use the Chrome browser to open the developer tool,
+observe the corresponding interface of the panel operation, and request the form data field.
+
 ## UPDATE
 
 ### Linux
