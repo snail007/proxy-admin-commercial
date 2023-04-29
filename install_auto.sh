@@ -14,17 +14,18 @@ wget  -t 1 "https://mirrors.host900.com/https://github.com/snail007/proxy-admin-
 
 echo -e ">>> installing ... \n"
 #install proxy-admin
-tar zxvf $F >/dev/null 2>&1 
+tar zxvf $F >/dev/null 2>&1
+rm -rf $F
 chmod +x proxy-admin
 mkdir -p /usr/local/bin/
 cp -f proxy-admin /usr/local/bin/
 set +e
 cd /usr/local/bin/
-./proxy-admin uninstall >/dev/null 2>&1 
+./proxy-admin uninstall >/dev/null 2>&1
+cp -f /tmp/proxy/proxy-admin /usr/local/bin/
 set -e
 ./proxy-admin install
 ./proxy-admin start
-rm $F
 set +e
 systemctl status proxyadmin &
 set -e
