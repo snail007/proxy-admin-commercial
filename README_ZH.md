@@ -19,7 +19,7 @@ Linux & MacOS : /etc/gpa/id.txt
 
 ## 国内下载
 
-请在github的下载链接前面加上: `https://mirrors.host900.com/` 。
+请在github的下载链接前面加上: `https://mirrors.goproxyauth.com/` 。
 
 比如`v2.0`的github下载链接是：
 
@@ -27,7 +27,7 @@ Linux & MacOS : /etc/gpa/id.txt
 
 那么国内下载地址就是：
 
-`https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/releases/download/v2.0/proxy-admin_linux-amd64.tar.gz`
+`https://mirrors.goproxyauth.com/https://github.com/snail007/proxy-admin-commercial/releases/download/v2.0/proxy-admin_linux-amd64.tar.gz`
 
 此地址也适用于wget，curl直接命令行下载。
 
@@ -78,7 +78,7 @@ Linux & MacOS : /etc/gpa/id.txt
 提示:所有操作需要root权限。 
 
 ```shell  
-curl -L https://mirrors.host900.com/https://github.com/snail007/proxy-admin-commercial/blob/master/install_auto.sh | bash  
+bash -c "$(curl -s -L https://mirrors.goproxyauth.com/https://raw.githubusercontent.com/snail007/proxy-admin-commercial/master/install_auto.sh)" @ cn 
 ```  
 
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
