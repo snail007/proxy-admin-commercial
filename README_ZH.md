@@ -75,10 +75,18 @@ Linux & MacOS : /etc/gpa/id.txt
 
 如果你的VPS是 linux 64位的系统，那么只需要执行下面一句，就可以完成自动安装和配置.
 
-提示:所有操作需要root权限。 
+提示:所有操作需要root权限。
+
+国内：
 
 ```shell  
 bash -c "$(curl -s -L https://mirrors.goproxyauth.com/https://raw.githubusercontent.com/snail007/proxy-admin-commercial/master/install_auto.sh)" @ cn 
+```  
+
+国外：
+
+```shell  
+bash -c "$(curl -s -L https://raw.githubusercontent.com/snail007/proxy-admin-commercial/master/install_auto.sh)" 
 ```  
 
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
